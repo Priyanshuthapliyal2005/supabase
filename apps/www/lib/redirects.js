@@ -2575,6 +2575,11 @@ module.exports = [
   },
   {
     permanent: true,
+    source: '/docs/guides/auth/auth-redirects',
+    destination: '/docs/guides/auth/redirect-urls',
+  },
+  {
+    permanent: true,
     source: '/docs/guides/auth/auth-user-management',
     destination: '/docs/guides/auth/managing-user-data',
   },
